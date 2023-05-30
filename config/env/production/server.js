@@ -1,9 +1,7 @@
-module.exports = function ({ env }) {
-  return {
-    proxy: true,
-    url: env("MY_HEROKU_URL"),
-    app: {
-      keys: env.array("APP_KEYS"),
-    },
-  };
-};
+export default ({ env }) => ({
+  proxy: true,
+  url: env("MY_HEROKU_URL"),
+  app: {
+    keys: env.array("APP_KEYS"),
+  },
+});
