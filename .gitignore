@@ -1,5 +1,5 @@
-############################
 # OS X
+############################
 ############################
 
 .DS_Store
@@ -113,3 +113,4 @@ exports
 dist
 build
 .strapi-updater.json
+package-lock.json
