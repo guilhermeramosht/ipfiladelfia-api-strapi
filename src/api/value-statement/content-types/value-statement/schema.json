@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "value_statements",
+  "info": {
+    "singularName": "value-statement",
+    "pluralName": "value-statements",
+    "displayName": "Visão e Valores",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "body": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
